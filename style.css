@@ -1,0 +1,31 @@
+.gallery h1 {
+    text-align: center;
+    color: forestgreen;
+    margin: 30px 0 50px;
+
+}
+.gallery2{
+    margin: 10px 50px;
+    text-align: center;
+
+}
+.gallery2 img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition:ls; 
+
+}
+.gallery2 img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+.fakeimg img{
+    width: 1px;
+    height: 1px;
+    padding: 5px;
+
+    transition:ls; 
+
+}
